@@ -1,24 +1,24 @@
-# Bank Management System (OOP)
+# Bank Management System (OOP - Java)
 
-An object-oriented **Bank Management System** designed to simulate core banking operations using clean **Object-Oriented Programming (OOP)** principles.
+An object-oriented **Bank Management System** built in **Java** to simulate core banking operations using clean **Object-Oriented Programming (OOP)** principles.
 
 ##  Overview
-This project models real-world banking entities—such as customers, bank accounts, and transactions—focusing on modularity, data security, and maintainable class hierarchies.
+This project models core banking entities—such as customers, accounts, and transactions—with a focus on modularity, data encapsulation, and reusable class hierarchies in Java.
 
 ##  Key Features
-- **Account Management:** Create, view, update, and close bank accounts (e.g., Savings and Checking accounts).
-- **Transactions:** Perform deposits, withdrawals, and balance inquiries with validation against insufficient funds.
-- **Fund Transfers:** Transfer money securely between different accounts.
-- **Transaction History:** Track and display a log of past operations per account.
+- **Account Management:** Create, view, update, and manage bank accounts (e.g., Savings and Checking accounts).
+- **Transactions:** Perform deposits, withdrawals, and balance checks with validation against insufficient funds.
+- **Fund Transfers:** Transfer funds between accounts safely.
+- **Transaction History:** Record and display account transaction logs.
 
 ##  OOP Concepts Applied
-- **Encapsulation:** Protecting sensitive account details (balance, PIN/password) using private attributes and controlled getters/setters.
-- **Inheritance:** Extending a base `Account` class into specialized account types (such as `SavingsAccount` and `CurrentAccount`).
-- **Polymorphism:** Overriding methods like interest calculation or withdrawal rules across different account types.
-- **Abstraction:** Separating core banking interfaces from internal implementation details.
+- **Encapsulation:** Protecting sensitive fields (balance, PIN/account credentials) using `private` modifiers and public getters/setters.
+- **Inheritance:** Extending a base `Account` class into specialized subclasses (such as `SavingsAccount` and `CheckingAccount`).
+- **Polymorphism:** Overriding methods (such as interest calculation or withdrawal rules) across account types.
+- **Abstraction:** Defining clear contracts via `abstract` classes or `interface`s.
 
 ##  Technologies Used
-- **Language:** C++ / Java / Python *(اختر اللغة المستخدمة في مشروعك واحذف الباقي)*
+- **Language:** Java (JDK 8+)
 - **Paradigm:** Object-Oriented Programming (OOP)
 
 ##  How to Run
