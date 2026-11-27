@@ -1,0 +1,10 @@
+
+package BankSystem;
+
+/**
+ *
+ * @author Tarik.ElAmsy
+ */
+public enum AccountType {
+    Checking,Saving,Retirement,MoneyMarket;
+}

@@ -1,0 +1,45 @@
+
+package BankSystem;
+
+/**
+ *
+ * @author moamen
+ */
+public class Customer {
+    private  String name;
+    private  Date dob;
+    private  String address;
+    
+     public Customer(String name, Date dob, String address) {
+        if (name==null)
+            throw new IllegalArgumentException("the name cant be null");
+        this.name = name;
+        this.dob = dob;
+        this.address = address;
+     }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+     public Date getDob() {
+        return dob;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    @Override
+    public String toString() {
+        return String.format("Name: %s\nDate of Birth: %s\nAddress: %s", name, dob, address);
+    }
+     
+}
